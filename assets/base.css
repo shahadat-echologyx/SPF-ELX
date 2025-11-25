@@ -663,12 +663,12 @@ p:empty {
 }
 
 .svg-wrapper {
-  color: currentcolor;
+  color: #707070;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: var(--icon-size-sm);
-  height: var(--icon-size-sm);
+  width: var(--icon-size-md);
+  height: var(--icon-size-md);
   pointer-events: none;
 }
 

@@ -277,7 +277,7 @@
   body {
     --header-height: 0px;
     --header-group-height: var(--header-height);
-    --header-min-height: 80px
+    --header-min-height: 80px;
     --transparent-header-offset-boolean: 0; /* stylelint-disable-line declaration-property-value-disallowed-list */
   }
 
@@ -462,7 +462,7 @@
   }
 
   .header__column--right {
-    gap: var(--gap-xl);
+    gap: var(--gap-2xl);
     justify-content: flex-end;
     grid-area: right;
 
@@ -567,6 +567,7 @@
       .header__icon--menu:not(:hover) {
         opacity: var(--opacity-subdued-text);
         transition: opacity var(--animation-speed) var(--animation-easing);
+        color: red;
       }
     }
   }
